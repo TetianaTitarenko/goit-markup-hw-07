@@ -1,0 +1,44 @@
+.hero {
+     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url(../images/bacground-image/Img.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     max-width: 1600px;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: var(--hero-footer-bg-color);
+     text-align: center;
+     padding-top: 200px;
+     padding-bottom: 200px;
+
+     &__title {
+          width: 696px;
+          margin-top: 0;
+          margin-bottom: 40px;
+          margin-left: auto;
+          margin-right: auto;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: calc(60/44);
+          text-transform: uppercase;
+          letter-spacing: 0.06em;
+          color: var(--primary-bg-color);
+     }
+     &__btn {
+          border-radius: 4px;
+          padding: 10px 32px;
+
+          color: var(--primary-bg-color);
+          border: transparent;
+          color: var(--primary-bg-color);
+          background-color: var(--accent-color);
+          cursor: pointer;
+
+          font-weight: 700;
+          font-size: 16px;
+          line-height: calc(30/16);
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.06em;
+     }
+}

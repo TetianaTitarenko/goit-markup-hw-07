@@ -1,0 +1,41 @@
+.customers {
+     @extend %section;
+
+     &__title {
+          margin-top: 0;
+          margin-bottom: 50px;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: calc(42/36);
+          text-align: center;
+          letter-spacing: 0.03em;
+          color: var(--title-text-color);
+     }
+     &__list {
+          display: flex;
+          gap: 30px;
+          justify-content: center;
+     }
+     &__link {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 170px;
+          height: 92px;
+          background-color: var(--primary-bg-color);
+          border: 1px solid rgba(175, 177, 184, 1);
+          border-radius: 4px;
+          color: rgba(175, 177, 184, 1);
+          transition: background-color var(--animation), color var(--animation);
+
+          &:hover,
+          &:focus {
+               color: var(--accent-color);
+               border-color: var(--accent-color);
+          }
+     }
+
+     &__icon {
+          fill: currentColor;
+     }
+}

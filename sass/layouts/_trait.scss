@@ -1,0 +1,37 @@
+.trait {
+     @extend %section;
+}
+.trait__list {
+     display: flex;
+}
+.trait__icon {
+     width: 270px;
+     height: 120px;
+     display: flex;
+     background: var(--button-ourteam-bg-color);
+     border-radius: 4px;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 30px;
+}
+.trait__item:not(:last-child) {
+     margin-right: 30px;
+}
+.trait__subtitle {
+     width: 270px;
+     margin-top: 0;
+     margin-bottom: 10px;
+     font-weight: 700;
+     font-size: 14px;
+     line-height: calc(16/14);
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--title-text-color);
+}
+.trait__text {
+     margin-top: 0;
+     margin-bottom: 0;
+     font-size: 14px;
+     line-height: calc(24/14);
+     letter-spacing: 0.03em;
+}

@@ -1,0 +1,48 @@
+.poduce {
+     @extend %section;
+     padding-top: 0;
+
+     &__title {
+          margin-top: 0;
+          margin-bottom: 50px;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: calc(42/36);
+          text-align: center;
+          letter-spacing: 0.03em;
+          color: var(--title-text-color);
+     }
+     &__list {
+          display: flex;
+          justify-content: space-between;
+     }
+     &__item {
+          position: relative;
+     }
+     &__img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+     }
+     &__text {
+          display: flex;
+          position: absolute;
+          bottom: 0;
+          height: 70px;
+          width: 100%;
+          background: rgba(47, 48, 58, 0.8);
+          font-size: 14px;
+          font-weight: 700;
+          line-height: calc(16/14);
+          text-align: center;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          color: var(--primary-bg-color);
+          justify-content: center;
+          align-items: center;
+     }
+     &__title {
+          display: block;
+          margin: 0;
+     }
+}

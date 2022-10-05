@@ -1,0 +1,48 @@
+.header {
+     border-bottom: 1px solid rgba(236, 236, 236, 1);
+
+     &__nav {
+          display: flex;
+          align-items: center;
+     }
+     &__list {
+          display: flex;
+          margin-left: auto;
+
+          font-weight: 500;
+          font-size: 14px;
+          line-height: calc(16/14);
+          letter-spacing: 0.02em;
+     }
+     &__item {
+          display: block;
+          padding-top: 32px;
+          padding-bottom: 32px;
+     }
+     &__item + &__item{
+          margin-left: 50px;
+     }
+     &__link {
+          align-items: center;
+          gap: 10px;
+          display: flex;
+          text-decoration: none;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: calc(16/14);
+          letter-spacing: 0.02em;
+          color: currentColor;
+          cursor: pointer;
+
+          transition: color var(--animation);
+
+          &:hover,
+          &:focus{
+               color: var(--accent-color);
+          }
+     }
+
+     &__icon{
+          fill: currentColor;
+     }
+}
