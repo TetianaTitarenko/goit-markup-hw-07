@@ -19,7 +19,6 @@
      &__address {
           display: block;
           text-decoration: none;
-          color: none;
           color: var(--primary-bg-color);
           font-style: normal;
           font-size: 14px;
@@ -27,6 +26,10 @@
           letter-spacing: 0.03em;
           cursor: pointer;
      }
+     &__list {
+          margin-top: 20px;
+     }
+     
      &__link {
           display: block;
           text-decoration: none;

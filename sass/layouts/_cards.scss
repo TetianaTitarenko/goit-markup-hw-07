@@ -39,6 +39,7 @@
      left: 0;
      height: 100%;
      width: 100%;
+     padding: 24px;
      background: rgba(33, 150, 243, 0.9);
      line-height: calc(28/18);
      letter-spacing: 0.03em;
@@ -50,7 +51,7 @@
 }
 
 .cards__text {
-     margin: 24px 63px;
+     margin: 0;
      color: var(--primary-bg-color);
 }
 .cards__border {
