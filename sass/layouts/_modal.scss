@@ -82,12 +82,11 @@
           &:hover {
                border-color: var(--accent-color);
           }
-          &:focus + .modal_icon,
-          &:hover + .modal_icon {
-               fill: var(--accent-color);
-          }     
      }
-
+     &__input:focus + &_icon,
+     &__input:hover + &_icon {
+          fill: var(--accent-color);
+     }     
 
      &__icon {
           position: absolute;
@@ -98,6 +97,11 @@
           display: flex;
           align-items: center;
           justify-content: center;
+
+          // &:hover,
+          // &:focus {
+          //      fill: var(--accent-color);
+          // }
      }    
      &__comment {
           display: block;

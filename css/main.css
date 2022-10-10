@@ -378,7 +378,7 @@ ul {
 .modal__input:focus, .modal__input:hover {
   border-color: var(--accent-color);
 }
-.modal__input:focus + .modal_icon, .modal__input:hover + .modal_icon {
+.modal__input:focus+.modal_icon, .modal__input:hover+.modal_icon {
   fill: var(--accent-color);
 }
 .modal__icon {
